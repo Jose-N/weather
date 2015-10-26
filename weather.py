@@ -17,6 +17,7 @@ if len(sys.argv) > 1:
 		currentWeather = todayWeather[0].getText()
 		print("It's " + currentWeather + "F right now.")
 	# Get todays weather
+	if "today" == ''.join(sys.argv[1]):
 	# Get hourly weather
 	#if "hourly" == ''.join(sys.argv[1]):
 	# 10 day weather forecast
